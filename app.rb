@@ -84,8 +84,8 @@ class App
   end
 
   def run
-    puts "🎵 Audio Recorder + Transcriber Pipeline"
-    puts "======================================="
+    puts "🎵 Tenor"
+    puts "========"
 
     unless check_dependencies
       puts "❌ Cannot start due to missing dependencies"

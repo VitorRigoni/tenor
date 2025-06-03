@@ -1,4 +1,4 @@
-# Audio Recorder + Transcriber Pipeline
+# Tenor
 
 A Ruby application that records audio from your microphone and automatically transcribes it to text using MLX Whisper.
 
@@ -41,7 +41,7 @@ A Ruby application that records audio from your microphone and automatically tra
 
 ### Quick Start
 ```bash
-./bin/audio_recorder
+./bin/tenor
 ```
 
 ### What Happens:
@@ -55,10 +55,10 @@ A Ruby application that records audio from your microphone and automatically tra
 ### Example Session
 
 ```bash
-$ ./bin/audio_recorder
+$ ./bin/tenor
 
-🎵 Audio Recorder + Transcriber Pipeline
-=======================================
+🎵 Tenor
+========
 🔍 Checking dependencies...
 ✅ MLX Whisper command found
 ✅ Using ffmpeg for audio recording
@@ -123,7 +123,7 @@ your-project/
 ├── transcriber.rb       # MLX Whisper transcription class
 ├── app.rb              # Integrated pipeline
 ├── bin/
-│   └── audio_recorder  # Bundler binstub
+│   └── tenor           # Bundler binstub
 ├── transcripts/        # Output directory for transcripts
 ├── Gemfile            # Ruby dependencies
 └── README.md          # This file
@@ -164,7 +164,7 @@ The application consists of three main components:
 
 ### Permission Issues
 ```bash
-chmod +x bin/audio_recorder
+chmod +x bin/tenor
 ```
 
 ### Microphone Permissions
@@ -217,6 +217,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Attribution
 If you use this code in your project, please include:
 ```
-Audio Recorder + Transcriber Pipeline by Vitor Rigoni
+Tenor by Vitor Rigoni
 https://github.com/VitorRigoni/tenor
 ```

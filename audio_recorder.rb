@@ -130,10 +130,11 @@ class AudioRecorder
   end
 
   def run
-    puts "🎵 Audio Recorder v2.0 - Continuous Mode"
-    puts "========================================"
+    puts "🎙️  Audio Recorder"
+    puts "=================="
 
     check_dependencies
+    setup_signal_handlers
     record
   end
 end
