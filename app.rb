@@ -106,5 +106,3 @@ class App
     @audio_recorder.record
   end
 end
-
-App.new.run
